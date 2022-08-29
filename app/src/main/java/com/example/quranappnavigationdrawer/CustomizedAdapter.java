@@ -31,7 +31,7 @@ public class CustomizedAdapter extends ArrayAdapter<tayah> {
        tayah cur=getItem(position);
        convertView= LayoutInflater.from(getContext()).inflate(R.layout.customizedview,parent,false);
         TextView ayahh=convertView.findViewById(R.id.ayah);
-        TextView Etarjama=convertView.findViewById(R.id.urduTarjama);
+        TextView Etarjama=convertView.findViewById(R.id.englishTarjama);
         TextView UTarjama=convertView.findViewById(R.id.urduTarjama);
 
         ayahh.setText(String.valueOf(cur.ArabicText));
